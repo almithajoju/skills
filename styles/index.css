@@ -375,19 +375,19 @@
 }
 
 .content-card {
+  width: 543px;
+  max-height: 374px;
   position: absolute;
   left: 50px;
   top: 50%;
   transform: translateY(-50%);
   background-color: #232323;
   opacity: 0.9;
-  width: 543px;
-  max-height: 374px;
   padding: 30px;
   color: #E8E8E8;
   font-family: "Josefin Sans", sans-serif;
   text-align: justify;
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 .content-card .spain {
@@ -446,7 +446,6 @@
     font-family: "Josefin Sans", sans-serif;
     text-align: justify;
     padding: 30px;
-    max-width: 67%;
     margin: 20px auto;
   }
 }
@@ -530,7 +529,7 @@
   width: 228px;
   height: 63px;
   color: #FFF;
-  font-family: Aleo, sans-serif;
+  font-family: "Aleo", sans-serif;
   font-size: 16px;
   letter-spacing: 1.2px;
   text-transform: uppercase;
@@ -542,10 +541,10 @@
     background-color: #232323;
     opacity: 0.9;
     color: #E8E8E8;
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     text-align: justify;
     padding: 30px;
-    max-width: 90%;
+    max-width: 67%;
     margin: 20px auto;
   }
 }
@@ -581,7 +580,7 @@
 }
 
 .section6-heading {
-  font-family: Aleo;
+  font-family: "Aleo", sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -642,32 +641,39 @@
 @media (max-width: 768px) {
   .section6 {
     height: auto;
-    padding: 20px;
   }
   .section6-content {
     position: relative;
     text-align: center;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 40px 0;
+    max-width: 100%;
+    margin-top: 40px;
   }
   .section6 .section6-bg img {
     width: 100%;
     height: 100%;
   }
   .section6-heading {
-    font-size: 24px;
+    font-size: 36px;
     margin-bottom: 20px;
+    text-align: center;
   }
-  .section6-content {
+  .section6-container {
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
+    align-self: stretch;
+    margin-top: 89px;
+    width: 100%;
   }
   .image-left img {
     display: none;
   }
+  .image-right {
+    position: absolute;
+  }
   .section6-text {
-    width: 100%;
+    font-size: 30px;
   }
 }
 .footer {

@@ -21,19 +21,19 @@
 }
 
 .content-card {
+  width: 543px;
+  max-height: 374px;
   position: absolute;
   left: 50px;
   top: 50%;
   transform: translateY(-50%);
   background-color: #232323;
   opacity: 0.9;
-  width: 543px;
-  max-height: 374px;
   padding: 30px;
   color: #E8E8E8;
   font-family: "Josefin Sans", sans-serif;
   text-align: justify;
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 .content-card .spain {
@@ -92,7 +92,6 @@
     font-family: "Josefin Sans", sans-serif;
     text-align: justify;
     padding: 30px;
-    max-width: 67%;
     margin: 20px auto;
   }
 }/*# sourceMappingURL=section4.css.map */

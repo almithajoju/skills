@@ -31,7 +31,7 @@
 }
 
 .section6-heading {
-  font-family: Aleo;
+  font-family: 'Aleo', sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -96,14 +96,17 @@
 @media (max-width: 768px) {
   .section6 {
     height: auto;
-    padding: 20px; 
+    
   }
 
   .section6-content {
     position: relative;
     text-align: center;
-    margin: 0 auto; 
-    padding: 20px; 
+    // margin: 0 auto; 
+    margin: 40px 0;
+    // padding: 20px; 
+    max-width: 100%;
+    margin-top: 40px;
   }
 
   .section6  .section6-bg img {
@@ -112,21 +115,29 @@
   }
 
   .section6-heading {
-    font-size: 24px;
+    font-size: 36px;
     margin-bottom: 20px;
+    text-align: center;
   }
 
-  .section6-content {
+  .section6-container {
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
+    align-self: stretch;
+    margin-top: 89px;
+    width: 100%;
   }
 
-  .image-left img {
-    display: none;
+  .image-left img {  
+   display: none;
+  
   }
 
-  .section6-text {
-    width: 100%; 
+.image-right {
+  position: absolute;
+}
+.section6-text {
+   font-size: 30px;
   }
 }
