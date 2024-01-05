@@ -1,0 +1,132 @@
+// SECTION 6
+
+.section6 {
+  width: 100%;
+  height: 700px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.section6 .section6-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.section6 .section6-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section6-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #FFF;
+}
+
+.section6-heading {
+  font-family: Aleo;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 90px;
+}
+
+.section6-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-left img {
+  width: 445px;
+  height: 284px;
+  flex-shrink: 0;
+}
+
+
+.image-right {
+  background-image: url(../images/image3.svg);
+  width: 668px;
+  height: 287px;
+  flex-shrink: 0;
+  fill: #333;
+}
+
+
+
+.sam-name {
+  width: 150px;
+  color: #E8E8E8;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.sam-text  {
+  width: 581px;
+  color: #E8E8E8;
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 1.6px;
+  margin-bottom: 45px;
+  margin-left: 60px;
+
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .section6 {
+    height: auto;
+    padding: 20px; 
+  }
+
+  .section6-content {
+    position: relative;
+    text-align: center;
+    margin: 0 auto; 
+    padding: 20px; 
+  }
+
+  .section6  .section6-bg img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .section6-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .section6-content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .image-left img {
+    display: none;
+  }
+
+  .section6-text {
+    width: 100%; 
+  }
+}
