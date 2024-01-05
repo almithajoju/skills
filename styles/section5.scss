@@ -87,7 +87,7 @@
 
 @media (max-width: 768px) {
   .content-card1 {
-    position: static;
+    position: relative;
     background-color: #232323;
     opacity: 0.9;
     color: #E8E8E8;
@@ -96,5 +96,17 @@
     padding: 30px;
     max-width: 67%;
     margin: 20px auto; 
+    flex-direction: column;
   }
+
+.section5{
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+.section5-bg{
+  position: absolute;
+  object-fit: cover;
+}
+
 }
