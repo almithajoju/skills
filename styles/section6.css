@@ -87,7 +87,6 @@
   margin-left: 60px;
 }
 
-/* Media query for responsiveness */
 @media (max-width: 768px) {
   .section6 {
     height: auto;
@@ -118,9 +117,6 @@
   }
   .image-left img {
     display: none;
-  }
-  .image-right {
-    position: absolute;
   }
   .section6-text {
     font-size: 30px;
